@@ -7,7 +7,7 @@ const productarray=[{name:'t-shirt',price:'50',category:'clothes'},{name:'shoe',
 function App() {
   return (
     <div className="App">
-      <ProductTable props={productarray}/>
+      <ProductTable productarray={productarray}/>
   
     </div>
   );
